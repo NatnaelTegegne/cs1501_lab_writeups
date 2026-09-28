@@ -39,5 +39,4 @@ The final runtime ends up being: O(N) + O(N * M) = O(N * M)
 As I mentioned above the sort is in place which makes it best case O(1) but it still uses tim sort under the hood so in the worst case it's O(N). I also use result array which takes O(M) where M is the max different paths from each root folder. So the overall space is O(N) + O(M)
 
 
-
 I know this implementation could be more optimal if I used Tries that we are learning in class.
